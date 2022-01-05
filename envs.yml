@@ -1,4 +1,4 @@
-name: nisqa
+name: conferencingSpeech
 channels:
   - pytorch
   - conda-forge
