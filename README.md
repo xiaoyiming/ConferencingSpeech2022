@@ -10,4 +10,12 @@ This repository contains the datasets list and scripts required for the Conferen
   * `PSTN Corpus`, there are about 80,000 speech clips through classic public switched telephone networks, each truncated 10 seconds long.
 
 # Requirements
-python3.6 or above
+To install requirements install Anaconda and then use:   
+
+>conda env create -f env.yml
+
+
+This will create a new environment with the name "conferencingSpeech". Activate this environment to go on:
+
+>conda activate nisqa
+
