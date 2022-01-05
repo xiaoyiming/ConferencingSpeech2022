@@ -12,10 +12,10 @@ This repository contains the datasets list and scripts required for the Conferen
 # Requirements
 To install requirements install Anaconda and then use:   
 
->conda env create -f env.yml
+>conda env create -f envs.yml
 
 
 This will create a new environment with the name "conferencingSpeech". Activate this environment to go on:
 
->conda activate nisqa
+>conda activate conferencingSpeech
 
