@@ -5,7 +5,7 @@ This dataset  includes reverberation and reverberation free situations. In the r
 
 ##  NISQA Corpus
 The NISQA Corpus includes more than 14,000 speech samples with simulated (e.g. codecs, packet-loss, background noise) and live (e.g. mobile phone, Zoom, Skype, WhatsApp) conditions. The corpus is already publicly available so it can only be used as part of the training and development test sets in the competition.
-Subjective ratings are collected through an extension of P.808 Toolkit in which participants rated the overall quality and the quality dimensions Noisiness, Coloration, Discontinuity, and Loudness. Each clip has on average 5 valid votes.
+Subjective ratings are collected through an extension of P.808 Toolkit in which participants rated the overall quality and the quality dimensions Noisiness, Coloration, Discontinuity, and Loudness. Each clip has on average 5 valid votes. https://share.weiyun.com/6Mn4bvOC
 
 ## IU Bloomington Corpus
 There are 36,000 speech signals (16-bit single-channel audios sampled at 16 kHz) extracted from COSINE  and VOiCESdatasets, each truncated between 3 to 6 seconds long, with a total length of around 45 hours.
