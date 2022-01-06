@@ -17,3 +17,13 @@ About 10,000 corpus are offered in this competition.
 The PSTN  Corpus contain 79,980 degraded speech clips with a duration
 of 10 seconds were collected, 49,984 files based on noisy reference files, and 29,996 files based on clean reference files. The
 files were then split into a training and validation set. 
+
+## Dataset Division
+The training, development test, and evaluation test sets in this challenge are all obtained from the above-mentioned datasets. It is worth noticing that 
+different from Tencent , NISQA and PSTN corpus using ITU-T P.808 for subjective testing, the IU Bloomington corpus adopt ITU-R BS.153 to  subjective test each voice, which results in a score of 0~100 instead of 1~5. Thus, the IU Bloomington corpus will only  be provided to participants as additional materials, and will not appear in this challenge as a training, development test, or evaluation test set. Participants can decide whether to use it according to their needs. 
+
+Due to  the imbalance in the size of the datasets, 80% of Tencent Corpus, 95% of PSTN Corpus  are used for training and development test. Then the rest 20% of Tencent Corpus and 5% of Microsoft Corpus are used for evaluation test in this challenge. We will try to make the damage situation  and score distribution in the divided dataset as even as possible.Meanwhile, due to the NISQA corpus are already publicly available so they can only be used as part of the training  and development test sets in the competition.
+In addition, we will create two evaluation test datasets each with 200 clips one in German and one in English and subjective tests will be conducted using P.808 Toolkit. 
+
+ Finally, there are about 101,000 corpus for training and  development test, 7,200 Corpus for evaluation test in this challenge. 
+ They are composed of Chinese, English, and German, and consider background noise, speech enhancement system, reverberation, codecs, packet-loss and other possible online conference voice impairment scenarios.
